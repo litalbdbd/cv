@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+#nav {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+}
+
+#top {
+    /* display: none; */
+    width: 100vw;
+    height: 60vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://sofitel.accor.com/destinations/imagerie/switzerland-overview-1400x788-1-23bb_1400x788.jpg');
+    /* background-image: url("https://sofitel.accor.com/destinations/imagerie/switzerland-overview-1400x788-1-23bb_1400x788.jpg"); */
+    background-position: center;
+    background-size: cover;
+}
+
+#left {
+    width: 50%;
+}
+
+#right {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    list-style-type: none;
+    color: white;
+}
+
+#pic-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+
+#pic {
+    background-image: url("./img/81610428_10219194901402079_8895956505103171584_o.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+#second-title {
+    font-size: 20px;
+}
+
+#download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: turquoise;
+    font-size: 13px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px rgb(17, 57, 59);
+}
+
+#download:hover {
+    background-color: rgb(167, 221, 216);
+    cursor: pointer;
+}
+
+#circle-container {
+    display: flex;
+    /* height: 30vh; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.circle {
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(173, 167, 167);
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+}
+
+#education {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
