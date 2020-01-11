@@ -19,10 +19,11 @@
             <div id="nav">
                 <div id="left"></div>
                 <ul id="right">
-                    <li>About</li>
-                    <li>Education</li>
-                    <li>Work Experience</li>
-                    <li>Military Service</li>
+                    <li id="hamburger"> <img id="hamburger" src="https://www.rrcc.edu/sites/all/themes/rrcc/images/hamburger-icon.png" alt="menu"> </li>
+                    <li id="about-btn" class="properties">About</li>
+                    <li id="education-btn" class="properties">Education</li>
+                    <li id="work-btn" class="properties">Work Experience</li>
+                    <li id="military-btn" class="properties">Military Service</li>
                 </ul>
             </div>
             <div id="pic-container">
@@ -31,27 +32,42 @@
 
                 <div id="name-title"><b>Lital Zilka</b></div>
                 <div id="second-title">Fullstack Developer</div>
-                <div class="hvr-buzz-out" id="download">Download CV</div>
+                <form method="get" action="LitalZilka.docx">
+                    <button type="submit" class="hvr-buzz-out" id="download">Download CV</button>
+                </form>
+
+
 
             </div>
 
 
             <div id="circle-container">
                 <div class="circle">
-                    <div class="fab fa-linkedin"></div>
+                    <a href="https://www.linkedin.com/in/lital-zilka-ben-david-2524bb127/" target="_blank">
+                        <div class="fab fa-linkedin "></div>
+                    </a>
                 </div>
                 <div class="circle">
-                    <div class="fab fa-github"></div>
+                    <a href="https://github.com/litalbdbd" target="_blank">
+                        <div class="fab fa-github"></div>
+                    </a>
                 </div>
                 <div class="circle">
-                    <i class="far fa-envelope-open"></i>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=litalbdbd@gmail.com&su=SUBJECT&body=BODY&bcc=litalbdbd@gmail.com" target="_blank">
+                        <div class="far fa-envelope-open"></div>
+                    </a>
                 </div>
             </div>
 
         </div>
 
         <div id="content">
-            <div id="about-me">
+            <div class="animated bounce" id="about-me">
+
+                <div><b>Phone:</b> 0502311979 </div>
+                <div><b> Email:</b> litalbdbd@gmail.com</div>
+                <div><b>Languages:</b> Hebrew, English</div>
+
 
             </div>
             <div class="animated bounce" id="education">
@@ -83,46 +99,47 @@
                     <ul>
                         <li>11 untis of Computer Science (C#) </li>
                         <li>Honor roll of technological matriculation </li>
-
                     </ul>
                 </div>
-
             </div>
             <div class="animated bounce" id="work-exp">
-                <div id="now">
-                    <h3>Full Stack Development Bootcamp</h3>
-                    <h3>2020</h3>
+                <div>
+                    <h3>Front-End Developer</h3>
+                    <h3>Surecomp 2019</h3>
                     <ul>
-                        <li>HTML5, CSS, JavaScript, JQuery, BootStrap</li>
-                        <li>python</li>
+                        <li>Developing of trade finance <br>back-office application - Doka </li>
+                        <li>Object- Oriented programming </li>
                     </ul>
                 </div>
-                <div id="degree">
+                <div>
 
-                    <h3>Computer Science(B.sc)</h3>
-                    <h3>2015 – 2018 - Sapir Academic College</h3>
+                    <h3>Computer Science Teacher</h3>
+                    <h3>Roi Kariv 2017-2018</h3>
                     <ul>
-                        <li>Algorithms</li>
-                        <li>Data Structures</li>
-                        <li>Web Development</li>
-                        <li>Databases </li>
-                        <li>Operating Systems</li>
-                        <li>Communication Networks</li>
+                        <li>Teaching C# and Java in<br> high school for matriculation – Data<br> structure and OOP</li>
+
                     </ul>
                 </div>
-                <div id="high-school">
+                <div>
 
-                    <h3>High school</h3>
-                    <h3>2009 – 2012 - Ort Afridar</h3>
+                    <h3>Data system Implementor</h3>
+                    <h3>John Bryce 2016–2017</h3>
                     <ul>
-                        <li>11 untis of Computer Science (C#) </li>
-                        <li>Honor roll of technological matriculation </li>
-
+                        <li>Studied and implemented Data<br> Systems: "Chameleon",<br> "Q flow", "Namer", "meta vision"</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="animated bounce" id="military">
+                <div>
+                    <h3>Communication Technician</h3>
+                    <h3>2012-2014</h3>
+                    <ul>
+                        <li>In charge of operating the entire unit's computer and network infrastructure</li>
+                        <li>Network management course, Ramat Gan computers school</li>
                     </ul>
                 </div>
 
             </div>
-            <div id="military"></div>
         </div>
 
     </div>
